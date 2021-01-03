@@ -6,13 +6,14 @@
 /*---------------------------------------------------------------------
     import Fonts
 ---------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-nusx-med/css/alk-rounded-nusx-med.min.css");
 
 /*****----------------------------------------
-     1) font-family: 'Rajdhani', sans-serif;  
-     2) font-family: 'Poppins', sans-serif; 
+     
+	 1)font-family: "ALK Rounded Mtav Med", sans-serif; 
+	 2)font-family: "ALK Rounded Nusx Med", sans-serif;
+
 ----------------------------------------*****/
 
 
@@ -43,7 +44,7 @@ html {
 body {
 	color: #666666;
 	font-size: 14px;
-	font-family: 'poppins', sans-serif;
+	font-family: 'ALK Rounded Mtav Med', sans-serif;
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
@@ -607,7 +608,7 @@ nav.main-menu {
 }
 
 .dropdown-bar.right-dropdown-language>a::after {
-	font-family: 'FontAwesome';
+	font-family: 'ALK Rounded Nusx Med';
 	content: "\f107";
 	text-decoration: none;
 	padding-left: 4px;
@@ -663,7 +664,7 @@ nav.main-menu {
 }
 
 .dropdown-bar.right-dropdown-currency>a::after {
-	font-family: 'FontAwesome';
+	font-family: 'ALK Rounded Nusx Med';
 	content: "\f107";
 	text-decoration: none;
 	padding-left: 4px;
@@ -1003,7 +1004,7 @@ nav.main-menu {
 .actions .btn-process {
 	padding: 5px 16px;
 	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'ALK Rounded Mtav Med', sans-serif;
 	font-size: 14px;
 	border-radius: 2px;
 	overflow: hidden;
@@ -1016,6 +1017,8 @@ nav.main-menu {
 .line-cart {
 	position: relative;
 }
+
+.col-md-12
 
 .wish-box a span.icon span {
 	position: absolute;
@@ -1050,7 +1053,7 @@ nav.main-menu {
 	font-size: 16px;
 	display: block;
 	font-weight: 500;
-	color: #010005;
+	color: #fff;
 	text-transform: uppercase;
 }
 
@@ -1623,7 +1626,7 @@ a.slide_banner:hover::before {
 
 input[type="checkbox"].styled:checked+label:after,
 input[type="radio"].styled:checked+label:after {
-	font-family: 'FontAwesome';
+	font-family: 'ALK Rounded Mtav Med';
 	content: "\f00c";
 }
 
@@ -1638,6 +1641,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 
+
+
 /*---------------------------------------------------------------------
     layout new css 
 ---------------------------------------------------------------------*/
@@ -1645,18 +1650,31 @@ input[type="radio"] .styled:checked+label::after {
 
 .buy {
 background: #ffc221;
-padding: 7px 41px !important;
+padding: 7px 10px !important;
 margin-top: 18px;
 border-radius: 5px;
 display: inline-block;
 float: right;
+margin-left: 38px;
+
 }
+
+
+.language {
+	
+	padding: 7px 10px !important;
+	margin-top: 18px;
+	display: inline-block;
+	float: right;
+	margin-left: 43px;
+	
+	}
 
 .buy:hover {
 	color: #fff;
 }
 
-.head_top {background: #ffc221;
+.head_top {background: #fff;
 margin-bottom: 35px;
 }
 ul.sociel_link {
@@ -1687,7 +1705,7 @@ border-radius: 100%;
 font-size: 18px;
 }
 .header {
-	background: #fff;
+	background: #2D7CB2;
 	padding-bottom: 35px;
 }
 
@@ -2129,6 +2147,9 @@ ul.lik li a:hover {
 	background-color: #ffc221;
 	padding: 20px 0px;
 	margin-top: 70px;
+	border-bottom: 6px solid red;
+	background-color: lightgrey;
+	padding-bottom: 20px;	
 }
 
 .copyright p {
@@ -2158,7 +2179,7 @@ ul.lik li a:hover {
 }
 .brand_color .titlepage {
      margin-top: 70px;
-padding-bottom: 70px;
+padding-bottom: 10px;
 text-align: center;
 }
 
@@ -2184,7 +2205,7 @@ text-align: center;
      border-radius: inherit;
      margin-bottom: 30px;
      padding: 13px 20px;
-     font-family: poppins;
+     font-family: 'ALK Rounded Mtav Med';
 }
 .form-control:focus {
      box-shadow: inherit;
@@ -2192,7 +2213,7 @@ text-align: center;
 }
 
 .textarea {
-     font-family: poppins;
+     font-family: 'ALK Rounded Nusx Med';
      border: #ffc221 solid 2px;
      margin-bottom: 30px;
      padding: 13px 20px;
@@ -2201,7 +2222,7 @@ text-align: center;
 } 
 
 .send {
-     font-family: poppins;
+     font-family: 'ALK Rounded Mtav Med';
     max-width: 212px;
     margin: 0 auto;
     display: block;
@@ -2270,7 +2291,7 @@ text-align: center;
 
 
 
-.about {padding-top: 90px;}
+.about {padding-top: 0px;}
 .about .about_box figure {margin: 0;}
 .about .about_box figure img {width: 100%;}
 .about .about_box h3 {color: #000; font-weight: bold; font-size: 30px; line-height: 35px;}
@@ -2331,6 +2352,11 @@ text-align: center;
 	padding: 40px 0;
 	font-weight: 500;
 	text-align: center;
+}
+
+
+#main_form {
+	padding-bottom: 20px;
 }
 
 
